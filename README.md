@@ -36,8 +36,8 @@ python test.py
 
 ## Credits
 
-Nir Tuttnauer
-Tomer Mizrahi
+- Nir Tuttnauer
+- Tomer Mizrahi
 
 These contributors have developed the Hex Game, focusing on the use of advanced data structures for efficient gameplay.
 
