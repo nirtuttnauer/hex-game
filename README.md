@@ -5,6 +5,8 @@ The Hex Game is a strategic board game implemented in Python. It involves two pl
 
 ## Installation
 
+This is a Python 3 project using only the standard library; no third-party packages are required.
+
 To set up the Hex Game on your local machine, follow these steps:
 
 ```bash
@@ -17,10 +19,10 @@ cd hex-game
 To play the game, run the main script:
 
 ```bash
-python main.py
+python3 main.py
 ```
 
-The game is interactive and will prompt the players for their moves.
+The default board is 11 × 11. Enter zero-based row and column coordinates separated by a space (for example, `0 0`). Red moves first and connects the top and bottom; blue connects the left and right. Printed cells use `0` for empty, `1` for red, and `2` for blue. Out-of-bounds or occupied cells currently raise an assertion rather than prompting again.
 
 ## Contributing
 
@@ -31,7 +33,7 @@ Contributions to the development of the Hex Game are welcome. Please fork the re
 The project includes a series of tests that ensure the functionality of the game mechanics and the integrity of the game's data structures. Run the tests using:
 
 ```bash
-python test.py
+python3 -m unittest discover -v
 ```
 
 ## Credits
@@ -43,4 +45,4 @@ These contributors have developed the Hex Game, focusing on the use of advanced 
 
 ## License
 
-This project is licensed under the MIT License. See the LICENSE file for more details.
+No LICENSE file is currently included in this repository; do not assume an MIT license grant.

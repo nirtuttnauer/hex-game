@@ -49,6 +49,7 @@ class TestHexGame(unittest.TestCase):
         game._make_move(2, 0, 'red')
         print('---')
         game._check_winner('red')
+        self.assertEqual(game.winner, 'red')
         print('---')
 
     def test_check_winner_red2(self):
